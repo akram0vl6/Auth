@@ -15,5 +15,5 @@ app.use('/api',router)
 
 app.listen(PORT, async () => {
     await mongoose.connect(URL)
-    console.log(`Server startat in ${PORT}`)
+    console.log(`Server started in ${PORT}`);
 })
